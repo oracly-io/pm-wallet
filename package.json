@@ -1,0 +1,59 @@
+{
+  "name": "@oracly/pm-wallet",
+  "description": "Wallet",
+  "version": "1.0.0",
+  "author": "Oracly Team <team@oracly.io>",
+  "private": false,
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "types/index.d.ts",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "scripts": {
+    "build:lde": "./bin/dev.sh",
+
+    "build": "tsc && tsc-alias",
+    "lint": "eslint --ext .ts ."
+  },
+  "dependencies": {
+    "@web3-react/core": "8.2.3",
+    "@web3-react/coinbase-wallet": "8.2.3",
+    "@web3-react/eip1193": "8.2.3",
+    "@web3-react/empty": "8.2.3",
+    "@web3-react/metamask": "8.2.3",
+    "@web3-react/network": "8.2.3",
+    "@web3-react/types": "8.2.3",
+    "@web3-react/url": "8.2.3",
+    "@web3-react/walletconnect-v2": "8.5.1"
+  },
+  "files": [
+    "dist",
+    "bin"
+  ],
+  "devDependencies": {
+    "@aoberoi/chokidar-cli": "2.0.0",
+    "@types/amqplib": "0.8.2",
+    "@types/node": "^18.11.18",
+    "@types/jest": "^27.4.1",
+    "@types/react": "^18.0.5",
+    "@typescript-eslint/eslint-plugin": "^5.57.1",
+    "@typescript-eslint/parser": "^5.57.1",
+    "concurrently": "^5.1.0",
+    "eslint": "^8.38.0",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-config-airbnb-typescript": "16.2.0",
+    "eslint-plugin-import": "^2.27.5",
+    "tsc-alias": "^1.7.1",
+    "typescript": "^4.6.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PhoboSys/pm-wallet.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/PhoboSys/pm-wallet/issues"
+  },
+  "homepage": "https://github.com/PhoboSys/pm-wallet#readme"
+}

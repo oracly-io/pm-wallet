@@ -1,0 +1,4 @@
+#!/bin/sh -e
+
+cd /pm-wallet && npm link &&
+cd /build && npm link @oracly/pm-wallet

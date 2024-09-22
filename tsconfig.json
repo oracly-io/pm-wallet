@@ -1,0 +1,70 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "declarationDir": "./types",
+    "skipLibCheck": true,
+    "outDir": "dist",
+    "module": "commonjs",
+    "target": "es2017",
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "strictNullChecks": true,
+    "baseUrl": "./",
+    "paths": {
+      "@src/*": [
+        "src/*"
+      ],
+      "@chartdata/*": [
+        "src/chartdata/*"
+      ],
+      "@chartdata": [
+        "src/chartdata/index.ts"
+      ],
+      "@lib/*": [
+        "src/lib/*"
+      ],
+      "@enums": [
+        "src/enums/index.ts"
+      ],
+      "@events": [
+        "src/events/index.ts"
+      ],
+      "@infra": [
+        "src/infra/index.ts"
+      ],
+      "@config": [
+        "src/config.ts"
+      ],
+      "@rendering/*": [
+        "src/rendering/*"
+      ],
+      "@rendering": [
+        "src/rendering/index.ts"
+      ],
+      "@constants": [
+        "src/constants/index.ts"
+      ],
+      "@features/*": [
+        "src/features/*"
+      ],
+      "@features": [
+        "src/features/index.ts"
+      ]
+    },
+    "jsx": "react"
+  },
+  "include": [
+    "src/**/*",
+    "*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "test",
+    "jest.config.ts"
+  ],
+  "compileOnSave": true,
+  "watch": true,
+  "sourceMap": true
+}
